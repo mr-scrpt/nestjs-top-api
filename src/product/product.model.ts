@@ -1,4 +1,5 @@
 export class ProductModel {
+	_id: string;
 	img: string;
 	name: string;
 	price: number;

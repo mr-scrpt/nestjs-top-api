@@ -6,6 +6,7 @@ export enum CategoriesLevelTop {
 }
 
 export class PageModel {
+	_id: string;
 	levelFirst: CategoriesLevelTop;
 	levelSecond: string;
 	title: string;
